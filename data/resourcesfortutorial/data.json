@@ -964,7 +964,38 @@
                     {
                         "subtitle": "Download you data after making changes",
                         "space_after": false,
-                        "components": []
+                        "components": [
+                            {
+                                "type": "text-alert",
+                                "text": "This section only applies to you if your website is on a cloud server like Heroku where you cannot access your data. If you have your website on a local server, then whenever you press the 'Save Changes' button, your data is automatically saved in the folder called Data at the location of your website folder."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "You have made some changes, added some content and pressed the <span class='bg-success text-white p-1'>Save Changes</span> button in the top-right part of the page. Congratulations!! But what exactly happens to your data?"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "All data is stored in some files in the website folder. These files are grouped in a folder called 'Data'. If your website is on a cloud server, then you don't have access to the newly updated data straight away."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "You can choose to download the data at any time using the <span class='bg-success text-white p-1'>Download Data</span> button in the main admin interface. Clicking this will give you a <code>data.zip</code> file, which contains all your data in JSON format"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "It is always good practice to do this, because you will have a back-up of your data before making changes. If anything goes bad in your new update, or you go in a frenzy and start deleting everything, then you can recover from these mistakes if you have a back up of your data.",
+                                "space_after": true
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "In the next chapter, we will talk about how to you use github to store your data and all the history of your different versions of data and how to upload a new version of data to your cloud website."
+                            }
+                        ]
                     }
                 ]
             },
