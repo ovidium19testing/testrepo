@@ -931,7 +931,29 @@
                     {
                         "subtitle": "Learning Outcomes",
                         "space_after": false,
-                        "components": []
+                        "components": [
+                            {
+                                "type": "list-text",
+                                "list_elements": [
+                                    {
+                                        "links": [],
+                                        "text": "Learn what happens when you save your changes."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "Learn how to download your data after you made changes."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "Learn how to save your new data to your github repository."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "Learn how and when you should re-upload your github repository to your heroku app."
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             },
